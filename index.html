@@ -1,44 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>bootstrap About </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+<body style="background:url(http://www.goburrito.com/wp-content/uploads/2018/03/WhiteSand_Tiled.jpg);">
 
-  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light" Style="background-color: teal;">
+    <a class="navbar-brand text-white" href="#"><strong>Nathan Pearson</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active text-white" href="index.html">About Me <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-white" href="portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link text-white" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-    <section id="main-bio">
+  <div id="main-container" class="container" style="background-color:white;">
+      <div class="col-10 offset-1">
+        <div class="row">
+          <div class="col">
+            <h1>About Me</h1>
+          </div>
+        </div>
+   
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_680/bglxznomltgxbsnjt8tk" alt="Super Sayian Blue Goku" class="float-left mr-3 mb-2" width="50%">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur recusandae illum eos, aperiam porro perferendis incidunt reprehenderit suscipit quibusdam quos ex debitis asperiores. Dicta sequi placeat, enim odit suscipit assumenda.
+              Corrupti minus temporibus ullam sequi autem. Quasi nam exercitationem eum ipsam omnis quidem ea distinctio, recusandae velit repudiandae dolore consectetur sunt quaerat commodi! Nisi animi atque ducimus ullam totam rem.
+              Enim ipsa laboriosam aut reiciendis maxime eius, repellat voluptatibus nostrum ducimus quos asperiores harum praesentium sunt! Quaerat pariatur similique obcaecati soluta quo dolorum dicta aperiam in nam. Eligendi, minus cumque.
+              Ipsa repellendus dicta veritatis nulla ad, eligendi quidem fugit hic dolor officia neque iste facere quod, harum consectetur expedita. Optio veritatis ad porro sint nam illum excepturi et iste voluptatibus.
+              Quaerat eos doloremque sint dolorum, nam explicabo ad! Tenetur necessitatibus amet aliquam repellat enim ipsum magni nobis dolorem earum error saepe consequatur rem, facilis molestiae delectus eos dicta hic expedita.
+              Ipsam quae eveniet quasi provident temporibus tempore voluptates, aperiam recusandae eos laborum enim aliquam placeat nobis reiciendis maxime ducimus omnis molestiae ad? Totam dolorem, facere temporibus laudantium nulla quia quae?
+              Excepturi consequuntur, aperiam iusto incidunt fugiat sapiente. Expedita aspernatur mollitia quis non perferendis cupiditate id placeat delectus, voluptates sit repellat repellendus excepturi tempora distinctio nihil modi dolores hic. Perspiciatis, optio.
+              Fuga optio commodi quaerat consequuntur est ullam reiciendis minima amet! Deserunt et suscipit quis illo facere. Dicta aliquam culpa nam excepturi! Vero harum dolorem assumenda explicabo earum eaque natus fugiat?
+              Libero sunt debitis inventore dicta eveniet eum facere itaque excepturi voluptatum atque iure soluta explicabo aperiam similique dolore, numquam qui omnis cupiditate. Sit eius, vel quam rem minima maxime. Quos!
+              Numquam, ad suscipit molestiae beatae eligendi minima, modi soluta fugit ipsam laboriosam impedit! Laboriosam quos fuga, maiores optio, sequi reprehenderit unde sit perspiciatis in consequuntur enim sed illum. Assumenda, sapiente.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
 
-      <h2>Nathan Pearson</h2>
 
-      <img id="bio-image" src="https://qph.fs.quoracdn.net/main-qimg-678982a92bf124f45d602cc0851a6e83.webp" alt="Super Sayian Blue Goku">
 
-      Hello my name is Nate I'm thirty years old from Kansas City Kansas. I graduated from Washington high school in 2007 and after high school I started working at General Motors.</p>
-          <p>While at GM i felt unfulfilled and i started to question my life. After thinking about my future i decided to go back to school to further my education.</p>
-          <p>That's what brought me to the coding program. Coding seemed like a useful skill to me, especially in today's tech age.</p>
-    </section>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">nate913@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">project 1</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
 
+
+  <div class="fixed-bottom">
+    <footer class="text-center">
+      <nav class="navbar navbar-expand-lg navbar-light text-white" Style="background-color: teal;">
+          <div class="container">
+              <div class="container">
+                  Copyright &copy; 
+              </div>
+          </div>
+    </footer>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
